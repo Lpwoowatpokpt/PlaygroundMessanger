@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.SendActivity">
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:indeterminate="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="24sp"
+        android:text="@string/send_to"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/edtMessage"
+        android:hint="@string/enter"
+        android:background="@drawable/input_background"
+        android:layout_below="@+id/user_name_view"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<Button
+    android:id="@+id/sendBtn"
+    android:layout_below="@+id/edtMessage"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/primary_color_btn"
+    android:textColor="@android:color/white"
+    android:textSize="24sp"
+    android:text="@string/send"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</RelativeLayout>

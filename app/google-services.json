@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "145226696250",
+    "firebase_url": "https://playgroundmessanger.firebaseio.com",
+    "project_id": "playgroundmessanger",
+    "storage_bucket": "playgroundmessanger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145226696250:android:f7930dc1a4d25894",
+        "android_client_info": {
+          "package_name": "com.lpwoowatpokpt.playgroundmessanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145226696250-olcbkiblchacbm3taodef1cn9bup8q79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lpwoowatpokpt.playgroundmessanger",
+            "certificate_hash": "936614de782df0b3d23d6c22e2f72a8593b64e4c"
+          }
+        },
+        {
+          "client_id": "145226696250-1kv2km4c29u77jug3hsb70gap0vc9opc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlPcZWht9Dvhjs6RLXaL95kfK2qiWMmdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145226696250-1kv2km4c29u77jug3hsb70gap0vc9opc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
